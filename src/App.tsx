@@ -30,7 +30,7 @@ const strategies: Record<
   }
 > = {
   end: {
-    label: "Earliest End Time (Optimal)",
+    label: "Earliest End Time",
     sortFn: (a, b) => a.end - b.end,
   },
   start: {
